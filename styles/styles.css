@@ -74,6 +74,10 @@ nav > ul > li {
     margin-right: 40px;
 }
 
+.text-decoration {
+    text-decoration: none;
+}
+
 .introduction-portfolio {
     display: flex;
     justify-content: space-between;
@@ -436,4 +440,9 @@ hr {
 
 .footer-end-span {
     margin-left: 5px;
+}
+
+.hyperlink:hover {
+    cursor: pointer;
+    color: #F2BD00;
 }
